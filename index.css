@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: #D1FFC6;
+    font-size: 15px;
+    font-family: Arial;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav, ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav, ul, li {
+    padding: 15px 20px;
+}
+
+nav, ul, li, a {
+    text-decoration: none;
+    color: black;
+    width: block;
+    text-align: center;
+}
+
+nav, ul, li, a:hover {
+    font-size: 20px;
+    transition: 0.6ms;
+}
+li:hover, a:hover {
+    background: black;
+    color: whitesmoke;
+}
+
+.home-cff {
+    margin-top: 4%;
+    width: 700px;
+    height: 500px;
+    margin-left: 30px;
+}
+
+.photo-text {
+    position: absolute;
+    bottom: 300px;
+    right: 250px;
+    color: black;
+    background-color: #E8F8C1;
+    padding: 20px;
+  }
+
+.photo-text2 {
+        position: absolute;
+        top: 140%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        background-color: #E8F8C1;
+        padding: 20px;
+}
+
+.home-cff2 {
+    width: 750px;
+    height: 100%;
+    margin-top: 40;
+    margin-left: 50%;
+}
+
+.about-us {
+    margin: 30%;
+    margin-top: 7%;
+    font-weight: 25px;
+    background-color: #E8F8C1;
+    padding: 20px;
+}
+
+.coffeeice, .mug, .milk, .beans {
+    width: 400px;
+    height: 400px;
+}
+
+.grid-box {
+    padding: 20px;
+    background-color: #E8F8C1;
+    width: 100%;
+}
+
+.text-service {
+    position: absolute;
+    margin-left: 30%;
+    margin-top: -15%;
+}
+
+.sign-box {
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    text-align: center;
+    padding: 100px;
+    background-color: #E8F8C1;
+    height: 200px;
+}
